@@ -1,0 +1,210 @@
+.cabecera,
+.links>a,
+ul li a {
+    text-decoration: none
+}
+
+.cuadro>input,
+form>button {
+    outline: 0;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.cuadro>input,
+.cuadro>textarea,
+form>button {
+    font-family: 'Times New Roman', Times, serif
+}
+
+.cabecera,
+.contenedor,
+form>button,
+form>button:hover,
+ul li a {
+    text-align: center
+}
+
+.im1,
+.im2,
+.im3,
+.imagen-flotante {
+    position: relative
+}
+
+.im1,
+.im2,
+.im3,
+.im4,
+.imagen-flotante {
+    width: 160px;
+    float: right
+}
+
+.im1,
+.im2,
+.im3,
+.im4,
+.im5 {
+    float: right
+}
+
+body {
+    margin: 0;
+    padding: 0
+}
+
+.cabecera {
+    background-color: #8a00fc;
+    padding: 10px
+}
+
+.barra_navegacion {
+    background-color: #000;
+    color: #8a00fc;
+    padding: .2%
+}
+
+ul li {
+    display: inline
+}
+
+ul li a {
+    color: #8a00fc;
+    padding: 140px;
+    font-size: x-large
+}
+
+ul li a:hover {
+    color: #fff;
+    font-size: large
+}
+
+.barra_institucional {
+    background-color: #000;
+    color: #8a00fc;
+    text-align: center;
+    padding: 10px;
+}
+
+.contenedor,
+.contenedor1 {
+    background-color: #38203c;
+    padding: 20px;
+    color: #fff;
+    font-size: x-large
+}
+
+.contenedor1,
+.principal1,
+form {
+    text-align: center
+}
+
+.principal1 {
+    color: #fbfbfb;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.links>a {
+    color: #8a00fc
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+}
+
+.cuadro>input {
+    width: 17.6%;
+    height: 40px;
+    padding: 0 10px;
+    background-color: rgba(255, 255, 255, .1);
+    border: 3px solid transparent;
+    letter-spacing: 1px;
+    transition: 1s;
+    color: #fff
+}
+
+.cuadro>textarea,
+form>button,
+form>button:hover {
+    background-color: rgba(255 255 255 /.1)
+}
+
+.cuadro>textarea {
+    width: 18.8%;
+    height: 130px;
+    border: 3px solid transparent;
+    color: #fff
+}
+
+form>button {
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: x-large;
+    padding: 5px;
+}
+
+form>button:hover {
+    border: solid transparent;
+}
+
+.links>a:hover {
+    color: #fff
+}
+
+.im1 {
+    height: 150px;
+    top: -10px;
+    left: 20px;
+}
+
+.im2 {
+    height: 120px;
+    top: -10px;
+    left: 20px;
+}
+
+.im3 {
+    height: 120px;
+    top: -10px;
+    left: 20px;
+}
+
+.hermano,
+.im4,
+.im5,
+.madre,
+.todos,
+.yo {
+    position: relative;
+    top: -15px
+}
+
+.im4 {
+    height: 120px;
+    top: -10px;
+    left: 20px;
+}
+
+.im5 {
+    height: 120px;
+    top: -9px;
+    left: 20px;
+    width: 160px;
+}
+
+.hermano,
+.madre,
+.todos,
+.yo {
+    float: center;
+    width: 300px;
+    height: auto;
+    left: 5px;
+    padding: 100px
+}
